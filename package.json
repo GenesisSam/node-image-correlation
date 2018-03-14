@@ -1,0 +1,30 @@
+{
+  "name": "image-correlation",
+  "version": "1.0.0",
+  "description": "node based image correlation",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GenesisSam/node-image-correlation.git"
+  },
+  "keywords": [
+    "image",
+    "correlation"
+  ],
+  "author": "GenesisSam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GenesisSam/node-image-correlation/issues"
+  },
+  "homepage": "https://github.com/GenesisSam/node-image-correlation#readme",
+  "devDependencies": {
+    "jest": "^22.4.2"
+  },
+  "jest": {
+    "transform": {},
+    "testRegex": ".*.(spec|test).js$"
+  }
+}
