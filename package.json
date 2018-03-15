@@ -26,5 +26,8 @@
   "jest": {
     "transform": {},
     "testRegex": ".*.(spec|test).js$"
+  },
+  "dependencies": {
+    "get-pixels": "^3.3.0"
   }
 }
