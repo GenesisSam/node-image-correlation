@@ -30,14 +30,20 @@ describe("CorrelationNodeJs", () => {
   describe("imageCorrelation()", () => {
     describe("when give same image", () => {
       it("should return 1", async () => {
+        var start = new Date();
         var val = await imageCorrelation(imageA, imageA);
+        var end = new Date();
+        console.log("Working time: ", end - start);
         expect(val).toBe(1);
       });
     });
 
     describe("when give similar image", () => {
       it("should return 0.920361324", async () => {
+        var start = new Date();
         var val = await imageCorrelation(imageA, imageB);
+        var end = new Date();
+        console.log("Working time: ", end - start);
         expect(val).toBe(0.920361324);
       });
     });
