@@ -1,6 +1,6 @@
 {
   "name": "image-correlation",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "node based image correlation",
   "main": "src/index.js",
   "scripts": {
@@ -10,10 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/GenesisSam/node-image-correlation.git"
   },
-  "keywords": [
-    "image",
-    "correlation"
-  ],
+  "keywords": ["image", "correlation"],
   "author": "GenesisSam",
   "license": "ISC",
   "bugs": {
